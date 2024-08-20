@@ -5,13 +5,13 @@ import re
 import cv2
 
 
-image = cv2.imread("aadhar2.jpg")
+image = cv2.imread("aadhar.jpg")
   
 #Converting BGR to RGB
 image_rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
   
 #Read image
-image = cv2.imread('aadhar2.jpg')
+image = cv2.imread('aadhar.jpg')
 
 import easyocr
 
