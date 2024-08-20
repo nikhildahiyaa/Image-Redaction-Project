@@ -27,8 +27,8 @@ This project contains Python scripts that automate the process of redacting sens
 ## Usage
 1. Place the image files (e.g., PAN card, Aadhar card) in the project directory.
 2. Update the script with the correct image file name:
-    - For PAN card: update `image = cv2.imread("pancard2.jpg")` with your image filename.
-    - For Aadhar card: update `image = cv2.imread("aadhar2.jpg")` with your image filename.
+    - For PAN card: update `image = cv2.imread("pancard.jpg")` with your image filename.
+    - For Aadhar card: update `image = cv2.imread("aadhar.jpg")` with your image filename.
 3. Run the script:
     ```bash
     python blur_pan_number.py  # For PAN card redaction
